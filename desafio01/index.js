@@ -2,7 +2,7 @@ const express = require('express');
 const server = express();
 //server.use(express.json());
 
-const projects = ["1", "Novo Projeto"];
+const projects = ["ID", "Projeto", "Task"];
 
 server.get('/projects', (req, res) => {
   //console.log("Funcionando");
