@@ -12,6 +12,6 @@ routes.get('/', async (req, res) => {
   });
 
   return res.json(user);
-});
+}
 
 export default routes;
